@@ -1,0 +1,55 @@
+@import url('./common.css');
+@import url('./animation.css');
+
+header{
+    display: flex;
+    width:1200px;
+    justify-self: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 80px;
+    padding: 20px;
+    font-size: 16px;
+    margin-inline: 120px;
+    border-bottom: 1px solid #46a35952;
+}
+main{
+    width:1200px;
+    justify-self: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.btn_section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#home{
+    display: flex;
+    height: 470px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+#home button{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    margin:50px 0 50px 0;
+}
+#home:first-child{
+    margin:50px 0 0 0; 
+}
+#home p{
+    width: 600px;
+}
