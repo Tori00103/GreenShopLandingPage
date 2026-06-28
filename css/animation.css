@@ -1,0 +1,6 @@
+button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 255, 76, 0.747);
+}
+button:active{
+    background-color: #2b6637;
+}
