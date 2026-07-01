@@ -1,6 +1,7 @@
-button:hover{
-    box-shadow: 0px 0px 10px rgba(0, 255, 76, 0.747);
+.categories button:active{
+    color:#46A358;
 }
-button:active{
-    background-color: #2b6637;
+.filters button:active{
+    color:#46A358;
+    text-decoration: underline;
 }
