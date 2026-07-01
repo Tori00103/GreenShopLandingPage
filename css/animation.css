@@ -5,3 +5,11 @@
     color:#46A358;
     text-decoration: underline;
 }
+.shop_pages button:active{
+    background-color: #46A358 ;
+    border:#46A358 solid 2px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    color: #ffffff;
+}

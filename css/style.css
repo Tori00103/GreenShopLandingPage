@@ -122,3 +122,20 @@ nav {
     font-weight: 700;
     color:#46A358;
 }
+.shop_pages {
+    display: flex;
+    justify-content: flex-end;
+}
+.shop_pages button{
+    background-color: #ffffff ;
+    border:#E5E5E5 solid 2px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+}
