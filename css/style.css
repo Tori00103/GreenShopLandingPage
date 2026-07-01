@@ -1,9 +1,9 @@
 @import url('./common.css');
 @import url('./animation.css');
 
-header{
+header {
     display: flex;
-    width:1200px;
+    width: 1200px;
     justify-self: center;
     justify-content: space-between;
     background-color: #ffffff;
@@ -13,29 +13,33 @@ header{
     margin-inline: 120px;
     border-bottom: 1px solid #46a35952;
 }
-main{
-    width:1200px;
+
+main {
+    width: 1200px;
     justify-self: center;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.btn_section{
+
+.btn_section {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-#home{
+#home {
     display: flex;
     height: 470px;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
-#home button{
+
+#home button {
     width: 140px;
     height: 40px;
     border-radius: 10px;
@@ -45,11 +49,76 @@ nav{
     text-transform: uppercase;
     align-items: center;
     text-align: center;
-    margin:50px 0 50px 0;
+    margin: 50px 0 50px 0;
 }
-#home:first-child{
-    margin:50px 0 0 0; 
+
+#home:first-child {
+    margin: 50px 0 0 0;
 }
-#home p{
+
+#home p {
     width: 600px;
+}
+
+/*------------------------------section2---------------------------------*/
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin: 0 50px 0 0;
+}
+
+.categories button,
+.filters button {
+    background: none;
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+#shop {
+    display: flex;
+}
+#shop th {
+    padding-right: 33px;
+    padding-bottom: 70px;
+    height: 350px;
+    width: 258px;
+}
+
+#shop th img {
+    width: auto;
+    height: 250px;
+}
+#shop tr th:last-child {
+    padding-right: 0;
+}
+
+#shop tr:last-child th {
+    padding-bottom: 0;
+}
+.categories img {
+    margin-top: 300px;
+}
+.categories button{
+    padding-left:10px;
+}
+.shop_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+.shop_main h5{
+    font-size: 16px;
+    font-weight: 400;
+    color:#3D3D3D;
+    margin-bottom: 6px;
+}
+.shop_main p{
+    font-size: 18px;
+    font-weight: 700;
+    color:#46A358;
 }

@@ -25,6 +25,12 @@ h6{
     text-transform: uppercase;
     letter-spacing: 10%;
 }
+h4{
+    font-size: 18px;
+    font-weight: 700;
+    color:#3D3D3D;
+    margin-block:10px
+}
 h1{
     font-size: 70px;
     font-weight: 900;
@@ -39,3 +45,4 @@ p{
     font-weight: 400;
     color:#727272;
 }
+
